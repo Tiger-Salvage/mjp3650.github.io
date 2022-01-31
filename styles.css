@@ -12,3 +12,8 @@
 img{
     height: 200px;
 }
+
+iframe {
+  height: 600px;
+  width: 75%;
+}
