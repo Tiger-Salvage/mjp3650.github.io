@@ -19,8 +19,20 @@
   height 1.5em;
 }
 
-.page-body {
-  display: block
+.grid-pic {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.grid-desc {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.grid-body {
+  display: grid;
+  grid-template-columns: auto auto
+  grid-gap: 2em 2em;
 }
 
 img{
