@@ -22,17 +22,22 @@
 .grid-pic {
     grid-column-start: 1;
     grid-column-end: 2;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
 }
 
 .grid-desc {
   grid-column-start: 2;
   grid-column-end: 3;
+  align-items: left;
+  justify-content: left;
 }
 
 .grid-body {
   display: grid;
-  grid-template-columns: auto auto
-  grid-gap: 2em 2em;
+  grid-template-columns: 250px auto;
+  row-gap: 20px;
 }
 
 img{
